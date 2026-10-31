@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="ko" data-edition="web" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>뉴스/댓글 판독기 — 오늘의 주요 뉴스 방송사별 비교·댓글 분석 | Studio 36.5 °C</title>
+<meta name="description" content="KBS·MBC·SBS·JTBC·YTN 등 방송사 30곳이 오늘의 주요 뉴스를 어떻게 다뤘는지 1시간마다 비교합니다. 정치 뉴스 비중, 자극적 제목 비율, 댓글 통계 분석까지 무료로 확인하세요. 뉴스/댓글 판독기 · Studio 36.5 °C">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39; https://static.cloudflareinsights.com; style-src &#39;self&#39;; img-src &#39;self&#39; data: https://i.ytimg.com; font-src &#39;self&#39;; connect-src &#39;self&#39; https://cloudflareinsights.com; media-src &#39;self&#39;; worker-src &#39;self&#39;; manifest-src &#39;self&#39;; frame-src &#39;none&#39;; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">
+<link rel="canonical" href="https://studio365c.com/">
+<meta property="og:url" content="https://studio365c.com/">
+<meta property="og:image" content="https://studio365c.com/og-image.png?v=de75f3823e">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="naver-site-verification" content="84807bfe1924befc10f867b3650d445c6cb8a5cf">
+<meta name="google-adsense-account" content="ca-pub-9116894596041480">
+<meta name="twitter:title" content="뉴스/댓글 판독기 — 오늘의 주요 뉴스, 방송사 30곳 비교">
+<link rel="alternate" type="application/rss+xml" title="뉴스/댓글 판독기 · Studio 36.5 °C" href="https://studio365c.com/feed.xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"뉴스/댓글 판독기","alternateName":["Studio 36.5 °C 뉴스/댓글 판독기","Studio 36.5 °C 판독","판독기"],"url":"https://studio365c.com/","inLanguage":"ko-KR","publisher":{"@type":"Organization","name":"Studio 36.5 °C","url":"https://studio365c.com/"}}</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"d56b6c6c293640bf9107dd5056fcc6c7"}'></script>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="뉴스/댓글 판독기 · Studio 36.5 °C">
+<meta property="og:title" content="뉴스/댓글 판독기 — 오늘의 주요 뉴스, 방송사 30곳 비교">
+<meta property="og:description" content="방송사 30곳이 오늘의 주요 뉴스를 어떻게 다뤘는지 비교하고, 댓글을 통계로 분석합니다. 작성자를 판정하지 않고, 숫자로 보여 줍니다.">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="assets/fonts/noto-sans-kr-core.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css?v=e55fa04443">
+<link rel="stylesheet" href="assets/css/base.css?v=79479bce8a">
+<link rel="stylesheet" href="assets/css/editorial.css?v=77c9b50d7a">
+<link rel="stylesheet" href="assets/css/studio.css?v=783638d75b">
+<link rel="stylesheet" href="assets/css/motion.css?v=4a123166fc">
+<link rel="stylesheet" href="assets/css/app.css?v=709017dbd4">
+<link rel="stylesheet" href="assets/css/readability.css?v=50a1effcf5">
+<script src="config.js?v=5e7d24dedc"></script>
+<script src="assets/js/theme.js?v=fe9e2553e9"></script>
+<script src="assets/js/motion-pref.js?v=0844e640c7"></script>
+</head>
+<body>
+<a class="skip-link" href="#portal-nav">메뉴로 바로 가기</a>
+<div class="page-progress" id="page-progress" aria-hidden="true"></div>
+<header class="mast" id="top">
+  <div class="wrap">
+    <div class="site-header">
+      <a class="wordmark studio-wordmark" href="#home" data-route="home" aria-label="Studio 36.5 °C 홈"><span class="studio-name">Studio <strong>36.5 <span class="degree">°C</span></strong></span></a>
+      <button type="button" class="sound-toggle" id="sound-toggle" aria-pressed="false" aria-label="사운드 (배경 음악·효과음)"><span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="st-label">사운드</span></button>
+      <button type="button" class="motion-toggle" id="motion-toggle" aria-pressed="false" aria-label="모션 효과"><span class="mt-label">모션</span><span class="mt-switch" aria-hidden="true"></span></button>
+      <button type="button" class="header-action" data-open-reader="news">분석 시작<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+    </div>
+  </div>
+</header>
+<nav class="portal-nav" id="portal-nav" aria-label="메뉴">
+  <div class="wrap portal-inner">
+    <a href="#home" data-route="home">홈</a>
+    <a href="#summary" data-route="summary">오늘의 요약</a>
+    <a href="#events" data-route="events">주요 사건</a>
+    <a href="#channels" data-route="channels">방송사별</a>
+    <a href="#framing" data-route="framing">표현 비교</a>
+    <a href="#trend" data-route="trend">7일 흐름</a>
+    <a href="#comments" data-route="comments">댓글 통계</a>
+    <a href="daily.html">날짜별 기록</a>
+    <a href="#method" data-route="method">기준·한계</a>
+  </div>
+</nav>
+<div class="wrap" data-view="home">
+    <section class="network-suite" id="network" aria-labelledby="network-title">
+      <div class="hero studio-hero">
+        <div class="hero-copy">
+          <p class="eyebrow hero-kicker">MEDIA INTELLIGENCE BY STUDIO 36.5 °C</p>
+          <p class="product-name">뉴스/댓글 판독기 <span>미디어 데이터 인사이트</span></p>
+          <h1 class="title" id="network-title"><span>흩어진 정보를</span><span>판단의 <em class="hl-word">근거</em>로.</span></h1>
+          <p class="lede" id="lede">방송사 보도의 표현과 댓글의 반복·시간 패턴을 집계해 비교하고, 데이터 사이의 관계를 입체적으로 탐색합니다. 기술로 정리하고, 사람이 판단합니다.</p>
+          <div class="hero-actions">
+            <button type="button" class="hero-cta" data-open-reader="news">분석 도구 열기<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+            <button type="button" class="hero-secondary" data-network-focus>네트워크 탐색</button>
+          </div>
+          <p class="hero-privacy"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>내 데이터는 브라우저 안에서 분석<span class="privacy-divider"></span>가입 없이 이용</p>
+        </div>
+        <figure class="network-figure" aria-labelledby="network-figure-label">
+          <div class="network-stage" id="network-stage">
+            <div class="network-stage-top"><span id="network-figure-label">CONNECTED PERSPECTIVES</span><span class="stage-coordinate">36.5 / DATA EXPLORER</span></div>
+            <canvas id="network-canvas" role="img" tabindex="0" aria-label="3D 데이터 네트워크. 드래그로 회전, 노드 클릭으로 데이터 선택. 방향키로 회전하고 Enter로 앞쪽 노드를 선택할 수 있습니다.">아래 노드 선택 메뉴에서 동일한 데이터를 확인할 수 있습니다.</canvas>
+            <div class="network-tooltip" id="network-tooltip" hidden></div>
+            <div class="network-stage-bottom"><span id="network-stage-count">데이터 연결 중</span><div class="network-stage-actions"><button type="button" id="network-motion" aria-pressed="false" aria-label="자동 회전 시작"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path class="motion-play" d="m9 5 10 7-10 7V5Z"/><path class="motion-pause" d="M8 5v14M16 5v14"/></svg></button><button type="button" id="network-reset" aria-label="네트워크 시점 초기화"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10a9 9 0 1 1 2 8M3 4v6h6"/></svg></button></div></div>
+          </div>
+          <figcaption class="network-caption"><span>드래그로 회전 · 노드를 선택해 데이터 확인</span><span id="network-motion-caption">자동 회전</span></figcaption>
+        </figure>
+      </div>
+      <div class="network-console" aria-label="네트워크 데이터 탐색 도구">
+        <div class="network-toolbar">
+          <div class="network-toolbar-title"><span>NETWORK EXPLORER</span><h2>연결된 데이터 탐색</h2></div>
+          <div class="network-selects">
+            <label for="network-source"><span>데이터 종류</span><select id="network-source"><option value="news">방송사 네트워크</option><option value="comments">댓글 집계 네트워크</option></select></label>
+            <label for="network-filter"><span>분류</span><select id="network-filter"><option value="all">전체 분류</option></select></label>
+            <label for="network-node"><span>노드 선택</span><select id="network-node"><option>데이터 불러오는 중</option></select></label>
+          </div>
+        </div>
+        <div class="network-inspector" aria-live="polite" aria-atomic="true">
+          <div class="network-node-intro"><p class="inspector-label" id="network-node-type">선택한 방송사</p><h3 id="network-node-title">데이터 연결 중</h3><p id="network-node-meta"></p><span class="network-data-state" id="network-data-state"></span></div>
+          <div class="network-node-content"><dl class="network-node-metrics" id="network-node-metrics"></dl><p class="network-node-excerpt" id="network-node-excerpt"></p></div>
+          <div class="network-connections"><p class="inspector-label" id="network-connections-label">연결된 데이터</p><div id="network-neighbors"></div><button type="button" class="network-detail-link" id="network-detail">분석 상세 보기<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button></div>
+        </div>
+        <div class="network-method"><p id="network-method">선은 공통 의제 구성의 유사도를, 점 크기는 수집한 영상 수를 나타냅니다.</p><details><summary>네트워크 읽는 방법</summary><p>구면의 위치와 거리는 탐색을 위한 배치입니다. 통계적인 거리나 성향의 우열을 뜻하지 않습니다. 방송사 사이의 선은 의제 분포의 코사인 유사도가 0.65 이상일 때 그립니다. 댓글 집계 네트워크의 점은 댓글 10건 이상이 모인 그룹이고, 선은 두 그룹에 함께 속한 댓글이 10건 이상일 때만 그립니다. 개별 댓글이나 작성자는 점으로 그리지 않습니다.</p></details></div>
+      </div>
+    </section>
+    <div class="hero-meta studio-meta"><p>STUDIO 36.5 °C</p><p class="meta-ko">기술로 정리하고, 사람이 판단합니다.</p><p>INDEPENDENT MEDIA ANALYSIS</p></div>
+</div>
+
+<section class="wrap tools" data-view="home" aria-labelledby="tools-h">
+  <div class="section-label"><p id="tools-h">OUR ANALYSIS TOOLS</p><span>관점을 비교하고, 패턴을 확인하세요.</span></div>
+  <div class="tool-grid">
+    <button type="button" class="tool-card" data-open-reader="news"><img class="tool-image" src="assets/img/tool-news.webp?v=6d8f6125f9" width="1536" height="1024" loading="lazy" decoding="async" alt=""><span class="tool-text"><span class="tool-no">MEDIA PERSPECTIVES</span><span class="tool-title">방송사 보도 비교</span><span class="tool-desc">공통 의제와 표현의 차이를 데이터로 확인합니다.</span></span><svg class="ui-icon tool-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+    <button type="button" class="tool-card" data-open-reader="comments"><img class="tool-image" src="assets/img/tool-comments.webp?v=655ac88cde" width="1536" height="1024" loading="lazy" decoding="async" alt=""><span class="tool-text"><span class="tool-no">COMMENT STATISTICS</span><span class="tool-title">댓글 집계 통계</span><span class="tool-desc">반복과 작성 시간의 분포를 묶음 단위로 살펴봅니다.</span></span><svg class="ui-icon tool-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+  </div>
+</section>
+
+<aside class="wrap ad-slot" data-slot="top" aria-label="광고" hidden></aside>
+<aside class="ad-slot ad-rail" data-slot="rail" aria-label="광고" hidden></aside>
+<nav class="wrap modes" id="reader" aria-label="분석 종류" hidden>
+  <div class="reader-intro"><h2><span>ANALYSIS WORKSPACE</span>미디어 분석 도구</h2><p>현재 데이터의 근거와 맥락을 함께 확인하세요.</p></div>
+  <div class="tabs big mode-tabs" role="tablist" aria-label="분석 종류" id="mtabs">
+    <button type="button" role="tab" id="mt-news" aria-selected="true" aria-controls="m-news"><span class="mode-number">01</span>방송사 비교</button>
+    <button type="button" role="tab" id="mt-comments" aria-selected="false" aria-controls="m-comments" tabindex="-1"><span class="mode-number">02</span>댓글 통계</button>
+    <span class="mode-note" aria-hidden="true">STUDIO 36.5 °C / RESEARCH TOOLS</span>
+  </div>
+</nav>
+
+<main class="wrap" id="m-news" role="tabpanel" aria-labelledby="mt-news" hidden>
+  <div class="tabs sub-tabs" role="tablist" aria-label="방송사 비교 화면" id="nw-subtabs" hidden>
+    <button type="button" role="tab" id="ns-summary" aria-selected="true" aria-controls="np-summary">한눈에 보기</button>
+    <button type="button" role="tab" id="ns-events" aria-selected="false" aria-controls="np-events" tabindex="-1">주요 사건</button>
+    <button type="button" role="tab" id="ns-channels" aria-selected="false" aria-controls="np-channels" tabindex="-1">방송사별</button>
+    <button type="button" role="tab" id="ns-framing" aria-selected="false" aria-controls="np-framing" tabindex="-1">표현 비교</button>
+    <button type="button" role="tab" id="ns-trend" aria-selected="false" aria-controls="np-trend" tabindex="-1">7일 흐름</button>
+    <button type="button" role="tab" id="ns-method" aria-selected="false" aria-controls="np-method" tabindex="-1">기준·한계</button>
+  </div>
+
+  <div class="subpanel" id="np-summary" role="tabpanel" aria-labelledby="ns-summary">
+    <div class="top-grid">
+      <section class="sheet verdict-sheet" id="nw-verdict" aria-labelledby="nw-v-h">
+        <p class="eyebrow" id="nw-v-h">오늘의 결론</p>
+        <p class="sample-flag" id="nw-snap-flag" hidden></p>
+        <h2 class="verdict" id="nw-head">데이터를 불러오는 중…</h2>
+        <dl class="stats" id="nw-stats"></dl>
+        <ol class="concl" id="nw-lines"></ol>
+        <details class="more-concl" id="nw-lines-more" hidden><summary id="nw-lines-more-s">결론 더 보기</summary><ol class="concl" id="nw-lines2" start="4"></ol></details>
+        <p class="note" id="nw-caveat"></p>
+        <div class="row">
+          <button type="button" id="nw-copy" class="btn small">결론 복사</button>
+          <button type="button" class="btn small" data-share data-share-from="#nw-head">공유하기</button>
+          <span id="nw-copy-msg" class="note" aria-live="polite"></span>
+        </div>
+        <label for="nw-copy-fb" class="sr">결론 요약</label>
+        <textarea id="nw-copy-fb" class="copy-fallback" readonly hidden></textarea>
+      </section>
+
+      <section class="sheet guide-sheet" aria-labelledby="nw-guide-h">
+        <h2 id="nw-guide-h" class="sec-h">처음이라면 이렇게 보세요</h2>
+        <ol class="guide">
+          <li><button type="button" class="guide-go" data-sub="events"><b>주요 사건</b><span>오늘 여러 방송사가 함께 다룬 사건과, 방송사마다 영상을 몇 개 올렸는지</span></button></li>
+          <li><button type="button" class="guide-go" data-sub="channels"><b>방송사별</b><span>방송사마다 정치 뉴스가 얼마나 많은지, 제목이 얼마나 자극적인지</span></button></li>
+          <li><button type="button" class="guide-go" data-sub="framing"><b>표현 비교</b><span>같은 인물·정당을 어떤 말로 꾸며 썼는지</span></button></li>
+        </ol>
+        <dl class="glossary">
+          <div><dt>정치 영상</dt><dd>정치 주제로 분류된 영상의 비율</dd></div>
+          <div><dt>자극적 제목</dt><dd>경악·발칵·극대노처럼 감정을 키우는 표현이 들어간 제목의 비율</dd></div>
+          <div><dt>묘사어 신호</dt><dd>인물·정당을 좋게 또는 나쁘게 꾸민 말(일침, 궤변 등)이 나온 영상 수. 방송사 성향을 판정하는 값이 아닙니다</dd></div>
+        </dl>
+        <p class="src-badge" id="nw-badge"></p>
+      </section>
+    </div>
+
+    <section class="sheet" id="nw-top-sec" aria-labelledby="nw-top-h" hidden>
+      <div class="sec-row">
+        <h2 id="nw-top-h" class="sec-h">오늘의 주요 사건 TOP 3</h2>
+        <button type="button" class="btn small" data-sub="events">전체 보기</button>
+      </div>
+      <ol class="top3" id="nw-top3"></ol>
+    </section>
+
+    <section class="sheet" id="nw-groups-sec" aria-labelledby="nw-groups-h">
+      <div class="sec-row">
+        <h2 id="nw-groups-h" class="sec-h">방송 종류별 비교</h2>
+        <button type="button" class="btn small" data-sub="channels">방송사별로 보기</button>
+      </div>
+      <div class="tbl-wrap" id="nw-groups"></div>
+      <p class="note">최근 24시간 영상 기준입니다. 막대 길이는 같은 열에서 가장 큰 값을 100으로 놓고 그렸습니다.</p>
+    </section>
+  </div>
+
+  <div class="subpanel" id="np-events" role="tabpanel" aria-labelledby="ns-events" hidden>
+    <section class="sheet" id="nw-events-sec" aria-labelledby="nw-ev-h">
+      <h2 id="nw-ev-h" class="sec-h">오늘의 주요 사건</h2>
+      <p class="note">여러 방송사가 최근 24시간 동안 함께 다룬 사건입니다(세 곳 이상). 방송사 이름을 누르면 그 방송사의 관련 영상 중 조회수 1위 영상을 YouTube에서 엽니다.</p>
+      <ol class="events" id="nw-events"></ol>
+      <p class="note">제목에 함께 나온 단어로 자동으로 묶었기 때문에 다른 사건이 섞이거나 한 사건이 둘로 나뉠 수 있습니다.</p>
+    </section>
+  </div>
+
+  <div class="subpanel" id="np-channels" role="tabpanel" aria-labelledby="ns-channels" hidden>
+    <section class="results" aria-labelledby="nw-list-h">
+      <div class="sec-row">
+        <h2 id="nw-list-h" class="sec-h">방송사별 결과</h2>
+        <label class="sel"><span class="sr">정렬</span>
+          <select id="nw-sort">
+            <option value="group">방송 종류별로 보기</option>
+            <option value="pol">정치 영상 많은 순</option>
+            <option value="sens">자극적 제목 많은 순</option>
+            <option value="P">진보 쪽 묘사어 많은 순</option>
+            <option value="C">보수 쪽 묘사어 많은 순</option>
+            <option value="views">조회수 많은 순</option>
+          </select>
+        </label>
+      </div>
+      <p class="note">방송사를 누르면 자세한 내용이 펼쳐집니다.</p>
+      <div class="ch-head" aria-hidden="true"><span>방송사</span><span>영상</span><span>정치 영상</span><span>자극적 제목</span><span>묘사어 진보:보수</span></div>
+      <div id="nw-cards" class="ch-list"></div>
+    </section>
+  </div>
+
+  <div class="subpanel" id="np-framing" role="tabpanel" aria-labelledby="ns-framing" hidden>
+    <section class="sheet" aria-labelledby="nw-is-h">
+      <h2 id="nw-is-h" class="sec-h">같은 인물, 다른 묘사</h2>
+      <p class="note">세 곳 이상이 함께 다룬 인물·정당을 방송사마다 어떤 말로 꾸몄는지 모았습니다. <b>＋</b> 긍정 묘사 · <b>−</b> 부정 묘사 · <b>±</b> 둘 다 · <b>·</b> 꾸밈 없이 전달</p>
+      <div id="nw-issues" class="issues"></div>
+    </section>
+    <section class="sheet" aria-labelledby="nw-map-h">
+      <div class="sec-row">
+        <h2 id="nw-map-h" class="sec-h">묘사어 신호 지도</h2>
+        <div class="seg" role="group" aria-label="지도에 보일 값" id="nw-metric">
+          <button type="button" data-m="lean" aria-pressed="true">제목</button>
+          <button type="button" data-m="art" aria-pressed="false">기사 본문</button>
+        </div>
+      </div>
+      <p class="note" id="nw-map-note">점이 왼쪽이면 진보 쪽 인물·정당에 유리한 묘사어가, 오른쪽이면 보수 쪽에 유리한 묘사어가 더 많이 나온 방송사입니다. 빈 원은 그런 영상이 3개 미만이라 판단을 보류한 곳입니다. 방송사의 성향을 판정하는 지표가 아닙니다.</p>
+      <div class="map-axis" aria-hidden="true"><span class="arrow-l">진보 쪽 묘사어</span><span>균형</span><span class="arrow-r">보수 쪽 묘사어</span></div>
+      <div id="nw-map" class="map"></div>
+    </section>
+  </div>
+
+  <div class="subpanel" id="np-trend" role="tabpanel" aria-labelledby="ns-trend" hidden>
+    <section class="sheet" id="nw-trend" aria-labelledby="nw-t-h">
+      <div class="sec-row">
+        <h2 id="nw-t-h" class="sec-h">최근 7일 흐름</h2>
+        <label class="sel" for="nw-t-ch"><span class="sr">채널 고르기</span>
+          <select id="nw-t-ch"><option value="all">전체 방송사</option></select>
+        </label>
+      </div>
+      <p class="note" id="nw-t-note">매시간 수집할 때마다 그 시점의 최근 24시간 영상으로 계산한 값을 이어 그립니다.</p>
+      <div class="chart-grid" id="nw-t-charts"></div>
+      <div class="sub" id="nw-t-agenda-wrap" hidden>
+        <h3 class="sub-h">날짜별 가장 많이 겹친 의제</h3>
+        <div class="tbl-wrap"><table class="rules" id="nw-t-agenda"></table></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="subpanel" id="np-method" role="tabpanel" aria-labelledby="ns-method" hidden>
+    <section class="sheet" aria-labelledby="nw-src-h">
+      <h2 id="nw-src-h" class="sec-h">어떤 데이터인가요</h2>
+      <p class="note" id="nw-intro">지상파·종편·보도·경제·지역민방·공공 방송의 유튜브 뉴스 채널에서 최근 하루 동안 올라온 영상을 YouTube 공개 RSS로 모아 비교합니다.</p>
+      <p class="note">1시간마다 자동으로 모읍니다. 계산한 수치와 판정에 쓰인 표현만 싣고, 영상 제목·설명 원문은 저장하지 않습니다. <a href="data.html">데이터 이용 안내</a> · <a href="daily.html">날짜별 요약</a> · <a href="channels.html">방송사별 데이터</a></p>
+    </section>
+    <section class="sheet" aria-labelledby="nw-c-h">
+      <h2 id="nw-c-h" class="sec-h">무엇을 어떻게 세나요</h2>
+      <div class="tbl-wrap"><table class="rules" id="nw-rules"></table></div>
+      <div class="crit-grid">
+        <div class="sub">
+          <h3 class="sub-h">이 비교가 하지 못하는 것</h3>
+          <ol class="limits">
+            <li>최근 24시간 영상(채널당 최소 15개, 너무 많으면 조회수 상위 200개)만 봅니다. 그날 큰 사건에 따라 결과가 크게 바뀌고, 방송사 전체의 성향을 판정하지 않습니다.</li>
+            <li>단어 사전으로 찾습니다. 반어, 맥락, 화면 속 내용은 보지 못합니다. 근거 영상을 직접 열어 확인하세요.</li>
+            <li>무엇을 보도하지 않았는지(의제 누락)는 세지 못합니다.</li>
+            <li>판결·체포 같은 사실을 전한 것은 묘사어로 세지 않습니다. 인물을 꾸미는 말과 평가하는 말만 셉니다.</li>
+            <li>사실 여부는 판정하지 않습니다. 사실 확인은 원문 기사와 공신력 있는 자료로 하세요.</li>
+          </ol>
+        </div>
+        <div class="sub">
+          <h3 class="sub-h">인물·정당 사전</h3>
+          <p class="note" id="nw-people-base"></p>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<main class="wrap" id="m-comments" role="tabpanel" aria-labelledby="mt-comments" hidden>
+  <div class="top-grid">
+    <section class="sheet" aria-labelledby="cm-in-h">
+      <div class="section-title"><span class="section-index">01 / SOURCE DATA</span><h2 id="cm-in-h" class="sec-h">분석할 데이터</h2></div>
+      <div class="tabs" role="tablist" aria-label="데이터 넣는 방법" id="cm-tabs">
+        <button type="button" role="tab" id="ct-yt" aria-selected="true" aria-controls="cp-yt">YouTube 링크</button>
+        <button type="button" role="tab" id="ct-local" aria-selected="false" aria-controls="cp-local" tabindex="-1">내 데이터 분석하기</button>
+        <button type="button" role="tab" id="ct-how" aria-selected="false" aria-controls="cp-how" tabindex="-1">읽는 법</button>
+      </div>
+
+      <div id="cp-yt" role="tabpanel" aria-labelledby="ct-yt" class="sub">
+        <label for="yt-url" class="lbl">YouTube 영상 링크</label>
+        <div class="row">
+          <input id="yt-url" class="in" type="url" inputmode="url" autocomplete="off" spellcheck="false" maxlength="2048" placeholder="https://www.youtube.com/watch?v=…">
+          <button type="button" id="yt-lookup" class="btn primary">영상 확인</button>
+        </div>
+        <p class="note">watch, youtu.be, shorts, live, 모바일(m.youtube.com) 링크를 넣을 수 있습니다.</p>
+        <p class="note" id="yt-msg" role="status" aria-live="polite"></p>
+        <div id="yt-video" class="video-card" hidden></div>
+        <div id="yt-analyze" class="sub" hidden>
+          <div class="row">
+            <label class="sel" for="yt-max"><span class="sr">가져올 댓글 수</span>
+              <select id="yt-max">
+                <option value="300">최신 댓글 최대 300건</option>
+                <option value="1000" selected>최신 댓글 최대 1,000건</option>
+                <option value="3000">최신 댓글 최대 3,000건</option>
+                <option value="5000">최신 댓글 최대 5,000건</option>
+              </select>
+            </label>
+            <label class="check"><input type="checkbox" id="yt-replies"> 답글 포함</label>
+          </div>
+          <div class="row">
+            <button type="button" id="yt-run" class="btn primary">댓글 통계 분석</button>
+            <button type="button" id="yt-cancel" class="btn ghost" hidden>취소</button>
+          </div>
+          <div class="prog" id="yt-prog" hidden>
+            <span class="prog-t"><i id="yt-prog-i"></i></span>
+            <span class="note" id="yt-prog-n"></span>
+          </div>
+        </div>
+        <p class="notice" id="yt-pending" hidden><b>댓글 통계 분석은 준비 중입니다.</b> YouTube API 정책상 댓글로 새로운 지표를 계산하는 기능은 운영자가 YouTube의 승인을 확인한 뒤 엽니다. 지금은 영상 기본 정보만 확인할 수 있고, 오른쪽 결과는 <b>가상의 데모 데이터</b>입니다.</p>
+        <p class="note">영상 정보는 공식 YouTube Data API로 조회합니다. 링크를 넣고 처음 확인할 때 데이터 처리 안내에 동의를 받습니다. <a href="privacy.html">개인정보처리방침</a></p>
+      </div>
+
+      <div id="cp-local" role="tabpanel" aria-labelledby="ct-local" class="sub" hidden>
+        <p class="note">직접 가진 텍스트 데이터(설문 응답, 내가 운영하는 게시판의 글 등)를 <b>이 브라우저 안에서만</b> 분석합니다. 서버로 보내지 않고, 페이지를 닫거나 ‘데이터 지우기’를 누르면 사라집니다.</p>
+        <label class="drop" for="local-file">
+          <input id="local-file" type="file" accept=".json,.csv,.tsv,.txt,application/json,text/csv,text/plain">
+          <b>파일 고르기</b>
+          <span>CSV · JSON · TXT · 최대 5MB</span>
+        </label>
+        <label for="local-text" class="lbl">또는 붙여넣기 (한 줄에 하나)</label>
+        <textarea id="local-text" rows="6" spellcheck="false" autocomplete="off" placeholder="한 줄에 한 건씩 넣으세요. 시간을 함께 넣으려면 CSV에 text, time 열을 두세요."></textarea>
+        <fieldset class="declare">
+          <legend class="lbl">데이터 출처 (필수)</legend>
+          <label class="check"><input type="radio" name="local-src" value="own"> 내가 작성했거나 이용 권한이 있는 데이터</label>
+          <label class="check"><input type="radio" name="local-src" value="mine"> 설문·게시판 등 내가 운영하는 곳에서 모은 데이터</label>
+          <label class="check"><input type="radio" name="local-src" value="open"> 이용 조건을 확인한 공개 데이터</label>
+          <label class="check"><input type="checkbox" id="local-ok"> 비공식 수집(스크래핑)으로 모은 데이터가 아니며, 작성자 이름·아이디 같은 개인정보는 분석에 쓰지 않습니다.</label>
+        </fieldset>
+        <div class="row">
+          <button type="button" id="local-run" class="btn primary">브라우저에서 분석</button>
+          <button type="button" id="local-clear" class="btn ghost">데이터 지우기</button>
+        </div>
+        <p class="note" id="local-msg" role="status" aria-live="polite"></p>
+        <p class="note">CSV는 <code>text</code>(또는 <code>comment</code>, <code>내용</code>) 열과 선택 사항인 <code>time</code>(또는 <code>publishedAt</code>, <code>작성시각</code>) 열을 읽습니다. 작성자 열이 있어도 읽지 않습니다. 이 기능에는 표현 유형 분석이 없습니다(그 사전은 서버에만 있습니다).</p>
+      </div>
+
+      <div id="cp-how" role="tabpanel" aria-labelledby="ct-how" class="sub" hidden>
+        <ol class="howto">
+          <li><b>무엇을 보여 주나요</b><p>댓글을 한 건씩 판정하지 않고, 같은 문장·비슷한 문장이 얼마나 되는지, 언제 몰렸는지를 묶음 단위 통계로 보여 줍니다.</p></li>
+          <li><b>왜 10건 기준인가요</b><p>작은 묶음은 특정인을 짐작하게 할 수 있어 10건 미만인 묶음과 시간 구간은 숫자를 숨기거나 더 큰 구간으로 합칩니다.</p></li>
+          <li><b>반복이 많으면 조작인가요</b><p>아닙니다. 같은 구호를 함께 쓰는 응원, 인기 있는 짧은 반응도 반복으로 잡힙니다. 이 도구는 그런 판단을 하지 않습니다.</p></li>
+          <li><b>표현 유형은 무엇인가요</b><p>공유 요청, 단정, 비하처럼 표현의 종류를 단어 사전으로 센 비율입니다. 누가 썼는지나 정치 성향은 보지 않습니다.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="sheet verdict-sheet" id="cm-verdict" aria-labelledby="cm-v-h">
+      <p class="eyebrow" id="cm-v-h">분석 결과</p>
+      <p class="sample-flag demo-flag" id="cm-flag" hidden></p>
+      <h2 class="verdict" id="cm-head">결과를 불러오는 중…</h2>
+      <p class="note" id="cm-source"></p>
+      <dl class="stats" id="cm-stats"></dl>
+      <ol class="concl" id="cm-lines"></ol>
+      <p class="note" id="cm-scope"></p>
+      <div class="row">
+        <button type="button" id="cm-copy" class="btn small">결과 요약 복사</button>
+        <button type="button" class="btn small" data-share data-share-from="#cm-head">공유하기</button>
+        <span id="cm-copy-msg" class="note" aria-live="polite"></span>
+      </div>
+      <label for="cm-copy-fb" class="sr">결과 요약</label>
+      <textarea id="cm-copy-fb" class="copy-fallback" readonly hidden></textarea>
+    </section>
+  </div>
+
+  <section class="results" aria-labelledby="cm-ch-h">
+    <div class="section-title"><span class="section-index">02 / AGGREGATE STATISTICS</span><h2 id="cm-ch-h" class="sec-h">집계 통계</h2></div>
+    <p class="note">모든 그래프는 묶음 단위 숫자입니다. 10건 미만인 칸은 ‘숨김’으로 표시하고 그리지 않습니다. 그래프마다 아래 ‘표로 보기’에서 같은 숫자를 확인할 수 있습니다.</p>
+    <div id="cm-charts" class="chart-grid"></div>
+  </section>
+
+  <section class="sheet" aria-labelledby="cm-g-h">
+    <div class="sec-row">
+      <div class="section-title"><span class="section-index">03 / GROUP NETWORK</span><h2 id="cm-g-h" class="sec-h">묶음 관계도</h2></div>
+      <div class="seg" role="group" aria-label="관계도 보기 방식" id="cm-g-mode">
+        <button type="button" data-gm="3d" aria-pressed="true">3D</button>
+        <button type="button" data-gm="2d" aria-pressed="false">2D</button>
+      </div>
+    </div>
+    <p class="note" id="cm-g-method"></p>
+    <div class="graph-wrap">
+      <div class="graph-stage" id="cm-graph" role="img" aria-label="댓글 묶음 관계도"></div>
+      <div class="graph-side">
+        <label for="cm-g-node" class="lbl">묶음 선택</label>
+        <select id="cm-g-node" class="in"></select>
+        <div id="cm-g-info" class="graph-info" aria-live="polite"></div>
+        <button type="button" id="cm-g-reset" class="btn small">시점 초기화</button>
+      </div>
+    </div>
+    <p class="note" id="cm-g-note">드래그로 회전, 휠·두 손가락으로 확대, 점을 눌러 선택합니다. 화면이 작거나 3D를 쓸 수 없으면 2D로 그립니다.</p>
+  </section>
+
+  <section class="sheet" id="criteria" aria-labelledby="c-h">
+    <div class="section-title"><span class="section-index">04 / METHODOLOGY</span><h2 id="c-h" class="sec-h">계산 방법과 한계</h2></div>
+    <div class="tbl-wrap"><table class="rules">
+      <caption>어떻게 계산하나</caption>
+      <thead><tr><th>단계</th><th>방법</th></tr></thead>
+      <tbody>
+        <tr><td>정리</td><td>유니코드 표준형(NFKC)으로 바꾸고, 보이지 않는 문자를 지운 뒤, 비교할 때는 글자와 숫자만 남깁니다. 띄어쓰기·문장부호·전각 문자 차이는 같은 것으로 봅니다.</td></tr>
+        <tr><td>짧은 반응</td><td>정리한 뒤 6글자 미만이면(ㅋㅋㅋ, 좋아요 등) 짧은 반응으로 따로 세고 반복 비교에서 뺍니다.</td></tr>
+        <tr><td>같은 문장</td><td>정리한 문장이 글자 하나까지 같으면 ‘같은 문장’입니다.</td></tr>
+        <tr><td>비슷한 문장</td><td>세 글자씩 끊은 조각의 겹침 비율(자카드 유사도)이 0.6 이상이면 ‘비슷한 문장’입니다. 많은 댓글을 빨리 비교하려고 MinHash(48개 해시, 12묶음×4줄)로 후보를 고른 뒤 실제 유사도를 계산합니다.</td></tr>
+        <tr><td>묶음</td><td>같거나 비슷한 문장끼리 이어진 덩어리를 하나의 묶음으로 봅니다. 10건 이상인 묶음만 따로 보여 줍니다.</td></tr>
+        <tr><td>시간 분포</td><td>한국 시간 기준으로 셉니다. 숨겨지는 칸이 30%를 넘으면 1시간→3시간→6시간, 하루→일주일 단위로 합칩니다. 기간은 날짜까지만 표시합니다.</td></tr>
+        <tr><td>표현 유형</td><td>서버에 있는 단어 사전으로 공유 요청, 단정, 비하 등 표현의 종류를 셉니다. 한 댓글이 여러 유형에 들어갈 수 있고, 10건 미만인 유형은 합쳐서 보여 줍니다.</td></tr>
+        <tr><td>관계도</td><td>점은 10건 이상 모인 그룹(반복 묶음, 시간대, 표현 유형)이고, 선은 두 그룹에 함께 속한 댓글이 10건 이상일 때 그립니다. 굵기는 작은 쪽 그룹 가운데 겹치는 비율입니다.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="crit-grid">
+      <div class="sub">
+        <h3 class="sub-h">이 분석이 하지 않는 것</h3>
+        <ol class="limits">
+          <li>작성자를 판정하지 않습니다. 이름·채널·프로필은 받지도 보여 주지도 않습니다.</li>
+          <li>정치 성향이나 여론 조작 여부를 판단하지 않습니다. 반복이 많다는 것은 관찰 결과일 뿐입니다.</li>
+          <li>뜻은 같지만 다른 말로 쓴 문장은 비슷한 문장으로 잡지 못합니다.</li>
+          <li>반어·인용·풍자는 구분하지 못할 수 있습니다.</li>
+          <li>최신 댓글부터 정해진 수만큼만 봅니다. 영상 전체 댓글이 아닐 수 있으니 결과 위의 표본 정보를 확인하세요.</li>
+        </ol>
+      </div>
+      <div class="sub">
+        <h3 class="sub-h">데이터 처리</h3>
+        <ol class="limits">
+          <li>YouTube 링크 분석: 서버가 공식 API로 댓글 본문과 작성 시각만 받아 메모리에서 계산하고, 응답을 보낸 즉시 버립니다. 원문은 저장하지 않습니다.</li>
+          <li>내 데이터 분석하기: 이 브라우저 안의 작업 스레드(Web Worker)에서 계산합니다. 서버로 보내지 않고 저장하지 않습니다.</li>
+          <li>데모 결과: 운영자가 만든 가상의 문장으로 계산한 예시입니다. 실제 댓글이 아닙니다.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+</main>
+
+<aside class="wrap ad-slot" data-slot="results" aria-label="광고" hidden></aside>
+<section class="wrap" id="principles" data-view="home" aria-labelledby="principles-h">
+  <div class="principles studio-principles">
+    <p class="eyebrow">THE HUMAN PERSPECTIVE</p>
+    <div class="principles-heading"><div><h2 id="principles-h">데이터의 끝에는<br>사람의 판단이 있습니다.</h2><p class="studio-signature">Studio 36.5 °C</p></div><p>Studio 36.5 °C의 판독은 복잡한 미디어 정보에서 판단의 단서를 찾도록 돕습니다. 숫자가 보여주는 패턴과 사람이 읽어야 하는 맥락을 함께 다룹니다.</p></div>
+    <div class="principles-grid">
+      <article class="principle"><span>01</span><h3>사람이 아니라 패턴을 봅니다.</h3><p>작성자를 판정하지 않습니다. 댓글은 10건 이상 모인 묶음의 통계로만 보여 주고, 정치 성향이나 조작 여부를 단정하지 않습니다.</p></article>
+      <article class="principle"><span>02</span><h3>모든 결과에 근거를 남깁니다.</h3><p>그래프마다 표본 수와 계산 방법, 한계를 함께 적습니다. 원문과 함께 읽어 주세요.</p></article>
+      <article class="principle"><span>03</span><h3>내 데이터는 이 기기에서.</h3><p>‘내 데이터 분석하기’에 넣은 파일과 글은 브라우저 안에서만 분석하고 저장하지 않습니다. 링크 분석도 댓글 원문을 남기지 않습니다.</p></article>
+    </div>
+  </div>
+</section>
+<footer class="wrap foot studio-footer">
+  <div class="footer-top"><div class="footer-title"><span class="studio-name">Studio <strong>36.5 <span class="degree">°C</span></strong></span><small>판독 / MEDIA INTELLIGENCE</small></div><p id="foot-text">자동 분석은 단어와 패턴에 기댄 집계이며 특정 방송사나 사람을 판정하는 근거가 아닙니다. YouTube 데이터는 YouTube API 서비스와 공개 RSS로 가져오며, 이 사이트는 YouTube·Google과 관련이 없습니다.</p></div>
+  <nav class="footer-links" aria-label="정책과 안내">
+    <a href="daily.html">날짜별 요약</a><a href="channels.html">방송사별 데이터</a><a href="about.html">서비스 소개</a><a href="privacy.html">개인정보처리방침</a><a href="terms.html">이용약관</a><a href="data.html">데이터 이용 안내</a><a href="limits.html">분석의 한계</a><a href="contact.html">문의·삭제 요청</a>
+    <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener noreferrer">YouTube 서비스 약관</a><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a>
+  </nav>
+  <div class="footer-bottom"><span>© 2026 Studio 36.5 °C. All rights reserved.</span><div class="theme-switch" role="group" aria-label="화면 밝기"><button type="button" data-theme-set="auto" aria-pressed="true">자동</button><button type="button" data-theme-set="light" aria-pressed="false">밝게</button><button type="button" data-theme-set="dark" aria-pressed="false">어둡게</button></div><a href="#top">맨 위로<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a></div>
+</footer>
+<button type="button" class="back-top" id="back-top" aria-label="맨 위로 이동" hidden><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></button>
+
+<dialog id="consent" class="consent" aria-labelledby="consent-h">
+  <form method="dialog" class="consent-in">
+    <h2 id="consent-h">YouTube 링크를 확인하기 전에</h2>
+    <ul>
+      <li>링크에서 영상 ID만 골라 이 사이트의 분석 서버로 보냅니다. 서버는 공식 <b>YouTube Data API</b>로 영상 정보를 조회합니다.</li>
+      <li>댓글 통계 분석이 열려 있으면 공개 댓글의 <b>본문과 작성 시각만</b> 받아 메모리에서 계산하고, 결과를 보낸 즉시 버립니다. 작성자 이름·채널·프로필 사진은 요청하지 않습니다.</li>
+      <li>요청 횟수를 제한하려고 접속 주소(IP)를 되돌릴 수 없게 바꾼 값을 서버 메모리에 잠시 둡니다. 접속 기록에는 IP를 남기지 않습니다.</li>
+      <li>이 기능은 YouTube API 서비스를 사용합니다. 이용하면 <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener noreferrer">YouTube 서비스 약관</a>에 동의하는 것으로 보며, Google의 데이터 처리는 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a>을 따릅니다.</li>
+    </ul>
+    <p class="note">자세한 내용: <a href="privacy.html">개인정보처리방침</a> · <a href="data.html">데이터 이용 안내</a></p>
+    <label class="check"><input type="checkbox" id="consent-ok"> 위 내용을 확인했고 동의합니다.</label>
+    <div class="row">
+      <button type="submit" value="ok" id="consent-yes" class="btn primary" disabled>동의하고 계속</button>
+      <button type="submit" value="no" class="btn ghost">취소</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="assets/js/nav.js?v=c91955a410" defer></script>
+<script src="assets/js/news.js?v=adce56d992" defer></script>
+<script src="assets/js/comments.js?v=f65febb7c1" defer></script>
+<script src="assets/js/trends.js?v=50a35476b8" defer></script>
+<script src="assets/js/network.js?v=c7a25c2b7f" defer></script>
+<script src="assets/js/motion.js?v=72a1ff87c7" defer></script>
+<script src="assets/js/fx.js?v=5513ceb388" defer></script>
+<script src="assets/js/sound.js?v=2cae00fb9d" defer></script>
+<script src="assets/js/ads.js?v=c26d258ca3" defer></script>
+<script src="assets/js/share.js?v=646530bdb8" defer></script>
+</body>
+</html>

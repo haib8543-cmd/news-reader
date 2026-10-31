@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+
+Sitemap: https://studio365c.com/sitemap.xml
+
+#DaumWebMasterTool:e3dd13176c0207bc7a7059c95afc07e544783fe72fef0542aa3c0a82d5750c1d:7v7Co2KibzUex4fH7zWmNA==
