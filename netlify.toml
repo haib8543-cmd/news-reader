@@ -1,0 +1,8 @@
+# Netlify settings for the prebuilt site (no build step on Netlify; headers live in _headers).
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/news-reader-motion.html"
+  to = "/"
+  status = 301
